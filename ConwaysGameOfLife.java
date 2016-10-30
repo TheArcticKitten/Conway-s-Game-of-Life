@@ -8,9 +8,9 @@ public class ConwaysGameOfLife
 {
 	public static void main(String[] sArgs)throws IOException
 	{
-		final int resHeight = 1920;
-		final int resWidth = 1080;
-		Board oB = new Board(1000,900);
+		final int resWidth = 1000;
+		final int resHeight = 1000;
+		Board oB = new Board(1000, 1000);
 		oB.randomize();
 		GraphicsMain oGUI = new GraphicsMain(resHeight, resWidth, oB);
 		while(true)
